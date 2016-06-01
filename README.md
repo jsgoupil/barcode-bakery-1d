@@ -65,11 +65,13 @@ drawing.save("image.png", Drawing.IMG_FORMAT_PNG, function() {
 ```
 
 ### Get buffer
+```javascript
 var drawing = new Drawing(code, colorBack);
 drawing.toBuffer(Drawing.IMG_FORMAT_PNG, function (err, buffer) {
     response.writeHead(200, { "Content-Type": "image/png" });
     response.end(buffer);
 });
+```
 
 ### Sync methods
 Both `save` and `toBuffer` have counterparts acting synchronously: `saveSync` and `toBufferSync`.
@@ -82,7 +84,12 @@ Simply type `mocha` to run the tests.
 
 ## License
 
-This script is free for personal use. The program is provide "AS IS" without warranty of any kind.
-If you want to use it as commercial use, you have to purchase it on
-http://www.barcodebakery.com
-You must let the copyright intact.
+Barcode Bakery 1D for NodeJS has two possible licenses.
+
+- Commercial License
+  (a paid license, meant for commercial use)
+  http://www.barcodebakery.com/en/license/2
+
+- Creative Commons Non-Commercial No-Derivatives
+  (meant for trial and non-commercial use)
+  https://creativecommons.org/licenses/by-nc-nd/4.0/
