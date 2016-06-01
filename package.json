@@ -1,0 +1,39 @@
+{
+    "name": "barcode-bakery-1d",
+    "version": "0.0.1",
+    "description": "Generates 1D barcodes from Node server to a file or a buffer.",
+    "main": "./index.js",
+    "homepage": "http://www.barcodebakery.com",
+    "author": {
+        "name": "Jean-Sébastien Goupil",
+        "email": "contact@barcodebakery.com"
+    },
+    "keywords": [
+        "barcode",
+        "generator",
+        "barcode",
+        "codabar",
+        "code11",
+        "code39",
+        "code39extended",
+        "code93",
+        "code128",
+        "ean-8",
+        "ean-13",
+        "isbn",
+        "i25",
+        "s25",
+        "msi",
+        "upc-a",
+        "upc-e",
+        "upcext2",
+        "upcext5"
+    ],
+    "license": "See LICENSE.MD",
+    "dependencies": {
+        "barcode-bakery-common": "0.0.1"
+    },
+    "devDependencies": {
+        "mocha": "^2.4.5"
+    }
+}
