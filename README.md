@@ -1,8 +1,9 @@
-﻿# Barcode Bakery 1D
+﻿Barcode Bakery 1D
+===========
 
-Generate 1D barcode used for tracking.
+Generates 1D barcode used for tracking.
 
-## Supported 1D types
+## Supported 1D symbologies
 
 * [Codabar](http://www.barcodebakery.com/en/resources/api/nodejs/codabar)
 * [Code 11](http://www.barcodebakery.com/en/resources/api/nodejs/code11)
@@ -29,11 +30,15 @@ Generate 1D barcode used for tracking.
 
 ## Installation
 
-	npm install barcode-bakery-1d
+```bash
+$ npm install barcode-bakery-1d
+```
+
+Don't forget to follow the installation instructions for node-canvas if the installation fails.
 
 ## Example
 
-Each barcodes can be reached from the `barcode-bakery-1d` package.
+Each barcode can be created from the `barcode-bakery-1d` package.
 Each barcode has different methods that can be used to change its size, color, etc. Check the manual to get more information.
 
 ```javascript
